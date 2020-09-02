@@ -1,0 +1,19 @@
+{
+  "name": "mevn-todo-list-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mariadb": "^2.4.2",
+    "sequelize": "^6.3.4"
+  }
+}
