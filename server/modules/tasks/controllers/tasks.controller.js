@@ -17,6 +17,10 @@ module.exports = {
     async addTask (req, res) {
 
         try {
+            
+            if(!req.body){
+                throw new Error("Body cannot be empty")
+            }
 
             const data =  await Task.create(req.body)
             return res.status(200).send(data)
